@@ -28,7 +28,7 @@ Proyek ini bertujuan untuk membuat sebuah situs web untuk sebuah Usaha Mikro, Ke
 
 ## Demo
 
-Berikut ini merupakan demo websitenya: www.com
+Berikut ini merupakan demo websitenya: [trihitavegan](https://trihitavegan.vercel.app/)
 
 
 ## Feedback
