@@ -42,6 +42,9 @@
   .link{
     @apply text-gray-500 transition hover:text-gray-500/75;
   }
+  .bg-url{
+    background-image: url("../img/trihita.jpg");
+  }
   .overlay-fade:before,
   .overlay-fade:after {
     position: absolute;

@@ -1157,6 +1157,10 @@ a {
   color: rgb(107 114 128 / 0.75);
 }
 
+.bg-url{
+  background-image: url("../img/trihita.jpg");
+}
+
 .overlay-fade:before,
   .overlay-fade:after {
   position: absolute;
@@ -2967,10 +2971,6 @@ a {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/img\/trihita\.jpg\'\)\] {
-  background-image: url('/img/trihita.jpg');
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -3460,11 +3460,6 @@ a {
   color: rgb(23 23 23 / var(--tw-text-opacity));
 }
 
-.text-neutral-950 {
-  --tw-text-opacity: 1;
-  color: rgb(10 10 10 / var(--tw-text-opacity));
-}
-
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
@@ -3488,11 +3483,6 @@ a {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
-}
-
-.text-teal-900 {
-  --tw-text-opacity: 1;
-  color: rgb(19 78 74 / var(--tw-text-opacity));
 }
 
 .underline {
