@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply font-headline;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  a {
+    @apply font-inter;
+  }
+}
+
+@layer components {
+  .btn-pesan {
+    @apply rounded border border-teal-700 bg-emerald-700 px-12 py-3 text-center text-sm font-semibold text-white hover:bg-teal-800 focus:outline-none focus:ring active:text-teal-500 transition-all duration-200 ease-in-out;
+  }
+  .btn-gofood {
+    @apply rounded border border-red-600 px-12 py-3 text-center text-sm font-semibold text-red-600 hover:text-red-50 hover:bg-red-700 focus:outline-none focus:ring active:text-red-700 transition-all duration-200 ease-in-out;
+  }
+  .btn-transform {
+    @apply inline-block px-12 py-3 text-base bg-teal-600 text-teal-50 rounded-md hover:bg-teal-700 hover:scale-105 hover:-skew-y-3 hover:rounded-none hover:tracking-wider transition-all duration-200 ease-out;
+  }
+  .btn-cta{
+    @apply rounded-md bg-teal-700 hover:bg-teal-800 transition duration-200 px-5 py-2.5 text-sm font-medium text-white shadow;
+  }
+  .card{
+    @apply rounded-xl shadow-lg w-full;
+  }
+  .menu{
+    @apply text-lg text-neutral-800 font-inter font-bold;
+  }
+  .price{
+    @apply text-base font-semibold font-inter text-teal-700;
+  }
+  .header{
+    @apply bg-white border-b-2 border-black/40 sticky top-0 z-20;
+  }
+  .link{
+    @apply text-gray-500 transition hover:text-gray-500/75;
+  }
+  .overlay-fade:before,
+  .overlay-fade:after {
+    position: absolute;
+    top: 0;
+    /* width: 200px; */
+    height: 100%;
+    content: "";
+    @apply z-10 w-20 sm:w-28 md:w-60 ;
+  }
+  .overlay-fade:before {
+    left: 0;
+    @apply bg-gradient-to-l from-transparent to-white;
+  }
+  .overlay-fade:after {
+    right: 0;
+    @apply bg-gradient-to-r from-transparent to-white;
+  }
+  .parent-card:hover .card-stop {
+    animation-play-state: paused;
+  }
+  .svg-animation path {
+    stroke-dashoffset: 400;
+    stroke-dasharray: 400;
+    animation: dash 4.5s 2.5s linear forwards;
+  }
+  .svg-icon path {
+    stroke-dashoffset: 210;
+    stroke-dasharray: 210;
+    animation: dash 3s 0.5s linear forwards;
+  }
+  .svg-doodles path {
+    stroke-dashoffset: 400;
+    stroke-dasharray: 400;
+    animation: dash 4.5s 1s linear forwards;
+  }
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+}
