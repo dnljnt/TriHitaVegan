@@ -1,4 +1,3 @@
-
 # Tugas - Membuat Website UMKM
 
 Proyek ini bertujuan untuk membuat sebuah situs web untuk sebuah Usaha Mikro, Kecil, dan Menengah (UMKM) yang bernama TriHita Vegan. Situs web ini akan berfungsi sebagai platform untuk mempromosikan produk atau layanan UMKM tersebut kepada pelanggan potensial. Dengan menggunakan kombinasi HTML, Tailwind CSS, sedikit Alpine.js, dan ScrollReveal, kita akan menciptakan pengalaman pengguna yang menarik dan interaktif.
@@ -28,7 +27,7 @@ Proyek ini bertujuan untuk membuat sebuah situs web untuk sebuah Usaha Mikro, Ke
 
 ## Demo
 
-Berikut ini merupakan demo websitenya: [trihitavegan](https://trihitavegan.vercel.app/)
+Berikut ini merupakan demo websitenya: [trihitavegan](https://trihitavegann.vercel.app/)
 
 
 ## Feedback
